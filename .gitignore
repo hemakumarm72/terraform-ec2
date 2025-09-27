@@ -1,0 +1,80 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+*.tfplan
+*.tfplan.*
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+terraform.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all .tfvars files, which are likely to contain sensitive data
+*.tfvars
+*.tfvars.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore Mac .DS_Store files
+.DS_Store
+
+# Ignore Windows Thumbs.db files
+Thumbs.db
+
+# Ignore editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore backup files
+*.bak
+*.backup
+
+# Ignore SSH keys (if stored in project)
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Ignore environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore node modules (if using any Node.js tools)
+node_modules/
+
+# Ignore Python cache (if using any Python tools)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Ignore any local configuration files
+local.tf
+local.tfvars
